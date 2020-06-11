@@ -1,0 +1,133 @@
+/*titre du menu*/
+
+.titre_note{
+	font-size: 1.8em;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+main{
+    font-family: 'Tillana', cursive;
+	margin: auto;
+	background-color: #fcdfdb;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	height: 10%;  /**/
+	width: 70%;
+	margin-bottom: 90px;/**/
+	overflow: auto;
+    overflow-y: hidden;
+}
+
+/*partie logo note enchantée en haut de la page*/
+.note i{
+	background: linear-gradient(to right, rgba(243,109,104,1) 0%,rgba(243,109,104,1) 48%,rgba(247,143,106,1) 100%);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	padding: 20px 0 0 15px;
+	width: 150px;
+	text-align: center;
+
+}
+
+.note h2{
+	color: #3c1218;
+	font-family: 'Devonshire', cursive;
+	font-size: 3em;
+}
+
+.ensemble_note{
+	 width: 80%;
+}
+
+/*liste menu note*/
+.sous_note{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 15px 0;
+}
+
+.sous_note img{
+	width: 30%;
+	height: 20px;
+	padding: 10px 0 0 0;
+}
+
+.liste_note{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+ main ul{
+ 	list-style: none;
+ }
+
+ h3{
+ 	font-size: 1.6em;
+ }
+
+ /*logo note en bas de la page*/
+
+ .fin_note{
+ 	display: flex;
+ 	justify-content: center;
+ 	padding: 20px 0 20px 0;
+ }
+
+ .fin_note i{
+	background: linear-gradient(to right, rgba(243,109,104,1) 0%,rgba(243,109,104,1) 48%,rgba(247,143,106,1) 100%);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	padding: 0px 0 0 15px;
+	width: 150px;
+	text-align: center;
+	width: 50px;
+
+}
+
+.fin_note h2{
+	color: #3c1218;
+	font-family: 'Devonshire', cursive;
+	font-size: 1.7em;
+}
+
+/*MEDIAQUERIES*/
+
+ @media all and (min-width: 768px) and (max-width: 990px){
+    
+    main{
+    	width: 90%;
+    }
+
+}
+
+@media all and (max-width: 767.98px){
+
+	main{
+		width: 90%;
+	}
+
+	.ensemble_note{
+		width: 98%;
+		text-align: center;
+	}
+
+	.liste_note{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

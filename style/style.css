@@ -1,0 +1,331 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+html,body {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+     /*en-tête de la page*/
+
+ a {
+  text-decoration: none;
+ }
+
+header{
+	width: 100%;
+	height: 120px;
+	background-color: rgba(87, 156, 135, 0.9);
+	color: rgb(253, 203, 70);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titre{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	color: rgb(253, 203, 70);
+}
+
+     /*contenu de ma page principale*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     overflow: auto;
+     overflow-x: hidden;
+     min-height: calc(100vh-70%);
+}
+
+section a{
+	text-decoration: none;
+	width: 300px;
+	height: 400px;
+}
+
+.menu{
+	display: flex;
+
+}
+
+.zoom_menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*menu la note enchantée*/
+
+#menu_un{
+	background-color: #fcdfdb;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5; /**/
+}
+
+#menu_un i{
+	background: linear-gradient(to right, rgba(243,109,104,1) 0%,rgba(243,109,104,1) 48%,rgba(247,143,106,1) 100%);
+	text-fill-color:transparent;
+	background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
+}
+
+#menu_un h3{
+	color: #3c1218;
+	font-family: 'Devonshire', cursive;
+	font-size: 1.8em;
+}
+
+#menu_un h2{
+	color: #3c1218;
+	font-family: 'Caveat', cursive;
+	font-size: 2em;
+}
+
+/*menu le chic à la française*/
+
+#menu_deux{
+	background-color: #fff5fe;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5;	
+	word-spacing: -.3ch;
+}
+
+#menu_deux h3{
+	background: linear-gradient(to right, #c77529 0%,#c85ec7 48%,#a849a3 100%);
+	text-fill-color:transparent;
+	background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
+    font-family: 'Croissant One', cursive;
+    font-size: 1.2em;
+}
+
+ #menu_deux h2{
+	
+	font-family: 'Source Serif Pro', serif;
+	font-size: 2.2em;
+	color: #d8852e;
+}
+
+/*menu le délice des papilles*/
+
+#menu_trois{
+	background-color: #edefef; 
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin: 40px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5;	
+}
+
+ #menu_trois h3{
+    background: linear-gradient(to right, rgba(4,49,223,1) 0%,rgba(27,145,250,1) 48%,rgba(59,124,221,1) 100%);
+    text-fill-color:transparent;
+	background-clip:text;
+    -webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7em;
+    padding: 0 0 0 2px;
+}
+
+ #menu_trois h2{
+	color: #0887fb;
+	font-size: 2.2em;
+	font-family: 'Architects Daughter', cursive;
+}
+
+/*menu la palette du goût*/
+
+ #menu_quatre{
+	background-color: #fdfffd
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin: 40px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5;
+
+}
+
+ #menu_quatre h3{
+    background: linear-gradient(to right, rgba(66,151,60,1) 0%,rgba(179,245,121,1) 48%,rgba(200,254,148,1) 100%); 
+    text-fill-color:transparent;
+	background-clip:text;
+    -webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+}
+
+ #menu_quatre h2{
+	color: #72bf56;
+	font-size: 2.2em;
+	font-family: 'Architects Daughter', cursive;	
+}
+
+/*prochainement*/
+
+.ensemble_pt{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #579c87;
+    color: #fdcb46;;
+    border-radius: 13px;
+    padding:15px 35px;          
+    margin: 0px 0 80px 0;
+
+}
+    
+.point{
+    background-color: #fdcb46;
+    height: 6px;
+    width: 6px;
+    border-radius: 3em;
+    margin: 0 0 0 6px;
+}
+
+/*footer*/
+
+footer{
+	background-color: #579c87;
+	position: fixed;
+	bottom: 0;
+    height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.foot{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+footer a{
+    color: #fdcb46; 
+     
+}
+
+
+
+
+/*Les Mediaqueries*/
+
+ @media screen and (min-width: 768px) and (max-width: 1390px){
+ 
+ .ensemble_pt h2{
+   font-size: 1.5em;
+
+ }
+}
+
+@media screen and (max-width: 767.98px){
+
+  body{
+  	font-size: 0.8em;
+  }
+
+  header{
+	height: 80px;
+  }
+
+  .titre{
+  	font-size:1.7em;
+  }
+
+  .menu{
+	display: flex;
+	flex-direction: column;
+   }
+
+   #menu_trois{
+   	margin-bottom: -5px;
+	
+   }
+  section a{
+  	height: 350px;
+	width: 250px;
+  }
+
+  .ensemble_pt{
+   margin-bottom: 80px;
+
+  }
+
+  .point{
+  	margin-top: 10px;
+  }
+
+  
+
+}
+@media screen and (max-width: 425px){
+
+  .ensemble_pt{
+    margin-bottom: 60px;
+   }
+
+  .ensemble_pt h2{
+  	font-size:1.1em;
+  } 
+
+  .foot h2{
+  	font-size:1.1em;
+  }
+
+  footer{
+  	height: 40px;
+  }
+
+ 
+}
+
+

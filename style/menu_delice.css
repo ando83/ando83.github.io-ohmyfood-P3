@@ -1,0 +1,114 @@
+/*titre du menu*/
+
+.titre_delice{
+	font-size: 1.8em;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+main{
+    font-family: 'Tillana', cursive;
+	margin: auto;
+	background-color: #edefef;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	height: 10%;  
+	width: 70%;
+	margin-bottom: 90px;
+	overflow: auto;
+    overflow-y: hidden;
+}
+
+main li{
+	font-size: 1em;
+}
+
+.delice h2{
+	 background: linear-gradient(to right, rgba(4,49,223,1) 0%,rgba(27,145,250,1) 48%,rgba(59,124,221,1) 100%);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	padding: 40px 2px 20px 3px;
+	text-align: center;
+    font-family: 'Dancing Script', cursive;
+	font-size: 2.7em;
+}
+
+.ensemble_delice{
+	 width: 80%;
+	 margin-bottom: 60px;
+
+}
+
+/*première liste menu delice des papilles */
+.sous_delice{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 25px 0;
+
+}
+
+.sous_delice img{
+	width: 30%;
+	height: 20px;
+	padding: 9px 0 0 0;
+}
+
+.sous_delice h3{
+ 	font-size: 1.5em;
+ 	color: #000000;
+ }
+
+.liste_delice{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #000000;
+	padding: 5px 0 5px 0;
+}
+
+ main ul{
+ 	list-style: none;
+ }
+
+/*MEDIAQUERIES*/
+
+ @media all and (min-width: 768px) and (max-width: 1024px){
+    
+    main{
+    	width: 90%;
+    }
+
+    .ensemble_delice{
+		width: 98%;
+		text-align: center;
+	}
+
+}
+
+@media all and (max-width: 767.98px){
+
+	main{
+		width: 90%;
+	}
+
+	.ensemble_delice{
+		width: 98%;
+		text-align: center;
+	}
+
+	.liste_delice{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+   .sous_delice h3{
+ 	font-size: 1.3em;
+   }
+}
+
+
+ 
+
+ 

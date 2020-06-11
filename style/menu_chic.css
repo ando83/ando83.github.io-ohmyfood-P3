@@ -1,0 +1,165 @@
+/*titre du menu*/
+
+.titre_chic{
+	font-size: 1.8em;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+main{
+    font-family: 'Source Serif Pro', serif;
+	margin: auto;
+	background-color: #fff5fe;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	height: 10%;  
+	width: 70%;
+	margin-bottom: 90px;
+	overflow: auto;
+    overflow-y: hidden;
+}
+
+main li{
+	font-size: 1em;
+}
+
+/*partie logo note enchantée en haut de la page*/
+.chic h2{
+	background: linear-gradient(to right, #c77529 0%,#c85ec7 48%,#a849a3 100%);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	padding: 40px 0px 20px 0px;
+	text-align: center;
+	font-family: 'Croissant One', cursive;
+	font-size: 1.9em;
+}
+
+.ensemble_chic{
+	 width: 80%;
+}
+
+/*première liste menu chic */
+.sous_chic{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 25px 0;
+
+}
+
+.sous_chic img{
+	width: 30%;
+	height: 20px;
+	padding: 5px 0 0 0;
+}
+
+.sous_chic h3{
+ 	font-size: 1.5em;
+ 	color: #c67412;
+ }
+
+.liste_chic{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #c67412;
+	padding: 5px 0 5px 0;
+}
+
+ main ul{
+ 	list-style: none;
+ }
+
+/*deuxième liste menu chic */
+.sous_chic1{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 25px 0;
+
+}
+
+.sous_chic1 img{
+	width: 30%;
+	height: 20px;
+	padding: 5px 0 0 0;
+}
+
+.sous_chic1 h3{
+ 	font-size: 1.5em;
+ 	color: #a56799;
+ }
+
+.liste_chic1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #ab709f;
+	padding: 5px 0 5px 0;
+}
+
+/*troisième liste menu chic */
+.sous_chic2{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 15px 0;
+}
+
+.sous_chic2 img{
+	width: 30%;
+	height: 20px;
+	padding: 5px 0 0 0;
+}
+
+.sous_chic2 h3{
+ 	font-size: 1.5em;
+ 	color: #6e4ccc;
+ }
+
+.liste_chic2{
+	
+	color: #6e4ccc;
+	padding: 10px 0 5px 0;
+	margin-bottom: 50px;
+}
+
+.liste_chic2 li{
+	
+	margin-top: 10px;
+}
+
+/*MEDIAQUERIES*/
+
+ @media all and (min-width: 768px) and (max-width: 1024px){
+    
+    main{
+    	width: 90%;
+    }
+
+    .ensemble_chic{
+		width: 98%;
+		text-align: center;
+	}
+
+}
+
+@media all and (max-width: 767.98px){
+
+	main{
+		width: 90%;
+	}
+
+	.ensemble_chic{
+		width: 98%;
+		text-align: center;
+	}
+
+	.liste_chic, .liste_chic1{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+ 
+
+ 
