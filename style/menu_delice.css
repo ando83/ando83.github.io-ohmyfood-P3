@@ -73,7 +73,7 @@ main li{
 
 /*MEDIAQUERIES*/
 
- @media all and (min-width: 768px) and (max-width: 1024px){
+ @media all and (min-width: 767.98px) and (max-width: 1024px){
     
     main{
     	width: 90%;

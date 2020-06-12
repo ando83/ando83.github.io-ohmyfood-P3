@@ -95,7 +95,7 @@ main{
 
 /*MEDIAQUERIES*/
 
- @media all and (min-width: 768px) and (max-width: 990px){
+ @media all and (min-width: 767.98px) and (max-width: 990px){
     
     main{
     	width: 90%;
