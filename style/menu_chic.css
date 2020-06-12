@@ -37,6 +37,7 @@ main li{
 
 .ensemble_chic{
 	 width: 80%;
+
 }
 
 /*première liste menu chic */
@@ -121,13 +122,15 @@ main li{
 	justify-content: space-between;
 	color: #6e4ccc;
 	padding: 10px 0 5px 0;
-	
-	/*color: #6e4ccc;
-	padding: 10px 0 5px 0;
-	margin-bottom: 50px;*/
 }
- span{
- 	margin-top: 55px;
+
+ .liste_chic3{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #6e4ccc;
+	padding: 10px 0 50px 0;
+
  }
 
 /*MEDIAQUERIES*/
@@ -156,7 +159,7 @@ main li{
 		text-align: center;
 	}
 
-	.liste_chic, .liste_chic1 , .liste_chic2{
+	.liste_chic, .liste_chic1 , .liste_chic2, .liste_chic3{
 		display: flex;
 		flex-direction: column;
 	}
