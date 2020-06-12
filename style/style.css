@@ -39,7 +39,6 @@ main{
      align-items: center;
      overflow: auto;
      overflow-x: hidden;
-     min-height: calc(100vh-70%);
 }
 
 section a{
@@ -62,6 +61,7 @@ section a{
     align-items: center;
 }
 
+
 /*menu la note enchantée*/
 
 #menu_un{
@@ -76,13 +76,11 @@ section a{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	line-height : 1.5; /**/
+	line-height : 1.5; 
 }
 
 #menu_un i{
 	background: linear-gradient(to right, rgba(243,109,104,1) 0%,rgba(243,109,104,1) 48%,rgba(247,143,106,1) 100%);
-	text-fill-color:transparent;
-	background-clip:text;
 	-webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
 	-moz-text-fill-color:transparent;
@@ -121,8 +119,6 @@ section a{
 
 #menu_deux h3{
 	background: linear-gradient(to right, #c77529 0%,#c85ec7 48%,#a849a3 100%);
-	text-fill-color:transparent;
-	background-clip:text;
 	-webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
 	-moz-text-fill-color:transparent;
@@ -155,8 +151,6 @@ section a{
 
  #menu_trois h3{
     background: linear-gradient(to right, rgba(4,49,223,1) 0%,rgba(27,145,250,1) 48%,rgba(59,124,221,1) 100%);
-    text-fill-color:transparent;
-	background-clip:text;
     -webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
 	-moz-text-fill-color:transparent;
@@ -175,7 +169,7 @@ section a{
 /*menu la palette du goût*/
 
  #menu_quatre{
-	background-color: #fdfffd
+	background-color: #fdfffd;
 	box-shadow: 0 0 10px lightgray;
 	-webkit-box-shadow: 0 0 10px lightgray; 
 	-moz-box-shadow: 0 0 10px lightgray; 
@@ -190,8 +184,6 @@ section a{
 
  #menu_quatre h3{
     background: linear-gradient(to right, rgba(66,151,60,1) 0%,rgba(179,245,121,1) 48%,rgba(200,254,148,1) 100%); 
-    text-fill-color:transparent;
-	background-clip:text;
     -webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
 	-moz-text-fill-color:transparent;
@@ -314,11 +306,11 @@ footer a{
    }
 
   .ensemble_pt h2{
-  	font-size:1.1em;
+  	font-size:1em;
   } 
 
   .foot h2{
-  	font-size:1.1em;
+  	font-size:1em;
   }
 
   footer{
