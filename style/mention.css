@@ -49,14 +49,14 @@ html, body {
    }
 
   .main_mention{
-    padding-top:9%;
+    padding-top:20px;
   }
 
 }
 
 @media all and (max-width: 375px){
    .main_mention{
-     padding-top:9%;
+     padding-top:20px;
    }
 
 }
