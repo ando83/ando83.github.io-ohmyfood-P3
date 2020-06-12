@@ -44,15 +44,19 @@ html, body {
 
 
 @media all and (max-width: 767.98px){
+   header h1{
+    font-size: 1.6em;
+   }
+
   .main_mention{
     padding-top:9%;
   }
-  
+
 }
 
 @media all and (max-width: 375px){
    .main_mention{
-    padding-top:9%;
+     padding-top:9%;
    }
 
 }
