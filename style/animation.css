@@ -4,7 +4,7 @@
 	transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
-	-webkit-animation: agrandir 7s ease;
+	-webkit-animation: agrandir 5s ease;
     -webkit-animation-delay: 120ms;
 }
 
