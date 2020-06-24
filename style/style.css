@@ -87,13 +87,13 @@ section a{
 	-moz-background-clip:text;
 }
 
-#menu_un h3{
+#menu_un h2{
 	color: #3c1218;
 	font-family: 'Devonshire', cursive;
 	font-size: 1.8em;
 }
 
-#menu_un h2{
+#menu_un h3{
 	color: #3c1218;
 	font-family: 'Caveat', cursive;
 	font-size: 2em;
@@ -117,7 +117,7 @@ section a{
 	word-spacing: -.3ch;
 }
 
-#menu_deux h3{
+#menu_deux h2{
 	background: linear-gradient(to right, #c77529 0%,#c85ec7 48%,#a849a3 100%);
 	-webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
@@ -127,7 +127,7 @@ section a{
     font-size: 1.2em;
 }
 
- #menu_deux h2{
+ #menu_deux h3{
 	
 	font-family: 'Source Serif Pro', serif;
 	font-size: 2.2em;
@@ -149,7 +149,7 @@ section a{
 	line-height : 1.5;	
 }
 
- #menu_trois h3{
+ #menu_trois h2{
     background: linear-gradient(to right, rgba(4,49,223,1) 0%,rgba(27,145,250,1) 48%,rgba(59,124,221,1) 100%);
     -webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
@@ -160,7 +160,7 @@ section a{
     padding: 0 0 0 2px;
 }
 
- #menu_trois h2{
+ #menu_trois h3{
 	color: #0887fb;
 	font-size: 2.2em;
 	font-family: 'Architects Daughter', cursive;
@@ -182,7 +182,7 @@ section a{
 
 }
 
- #menu_quatre h3{
+ #menu_quatre h2{
     background: linear-gradient(to right, rgba(66,151,60,1) 0%,rgba(179,245,121,1) 48%,rgba(200,254,148,1) 100%); 
     -webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
@@ -192,7 +192,7 @@ section a{
     font-size: 1.5em;
 }
 
- #menu_quatre h2{
+ #menu_quatre h3{
 	color: #72bf56;
 	font-size: 2.2em;
 	font-family: 'Architects Daughter', cursive;	
